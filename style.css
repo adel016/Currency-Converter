@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: aquamarine;
+    height: 110vh;
+}
+
+.logo{
+    width: 500px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+
+.titre{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 400%;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.currency select{
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.currency input{
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(63, 151, 222);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+.rate{
+    font-size: 20px;
+    margin: 20px;
+}
